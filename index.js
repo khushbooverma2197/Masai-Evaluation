@@ -1,4 +1,9 @@
-const multiply = (a = 1, b = 1) => a * b;
+const calculate = num => ({
 
-console.log(multiply(3, 4)); //12
-console.log(multiply()); //1
+  square: num * num,
+
+  cube: num * num * num
+
+});
+ 
+console.log(calculate(5)); 
